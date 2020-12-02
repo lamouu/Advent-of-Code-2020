@@ -2,7 +2,7 @@ data = []
 
 year = 2020
 
-with open('input/ReportRepairInput.txt') as f:
+with open('input.txt') as f:
     data = [int(line.rstrip()) for line in f]
 
 for num1 in data:
