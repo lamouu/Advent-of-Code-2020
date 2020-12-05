@@ -16,4 +16,4 @@ while y < 323:
         x = x - 31
     y += 1
 
-print(f"You're going to hit {treeCount} trees!")
+print(f"You're going to hit {treeCount} trees.")

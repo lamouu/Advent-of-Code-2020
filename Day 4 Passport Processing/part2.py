@@ -33,4 +33,4 @@ for passport in data:
     if validField == 7:
         validPassports += 1
 
-print(f"{validPassports} passports are valid")
+print(f"{validPassports} passports are valid.")

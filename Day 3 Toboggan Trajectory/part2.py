@@ -17,11 +17,11 @@ for step in range(5):
         if x > 30:
             x = x - 31
         y += stepArray[step][1]
-    print(f"Traveling with matrix {stepArray[step]}, you're going to hit {treeCount} trees!")
+    print(f"Traveling with matrix {stepArray[step]}, you're going to hit {treeCount} trees.")
     
     if step == 0:
         treeProduct = treeCount
     else:
         treeProduct = treeProduct * treeCount
 
-print(f"The product of these is {treeProduct}!")
+print(f"The product of these is {treeProduct}.")
