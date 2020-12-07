@@ -3,7 +3,6 @@ with open('input.txt') as f:
 
 bagArray = ['shiny gold bag']
 lastLength = 0
-
 while len(bagArray) != lastLength:
     lastLength = len(bagArray)
     for line in data:
