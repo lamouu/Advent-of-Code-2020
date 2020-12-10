@@ -1,3 +1,5 @@
+# INCOMPLETE
+
 with open('input.txt') as f:
     data = [line.rstrip()[:-1] for line in f]
 
