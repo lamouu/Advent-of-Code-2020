@@ -1,3 +1,5 @@
+# INCOMPLETE
+
 with open('input.txt') as f:
     data = [line.rstrip() for line in f]
 
@@ -16,5 +18,3 @@ for i, num1 in enumerate(data):
             print("ding")
             #range_ = data[i:j]
             #break
-
-#print(range_)
